@@ -25,7 +25,11 @@
              localStorage[event.id] = JSON.stringify(full_event); 
         })   
 
-          }}
+          }
+          else
+          localStorage[event.id] = JSON.stringify(event); 
+        
+        }
          
     )
         }
